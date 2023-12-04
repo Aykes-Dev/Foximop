@@ -1,0 +1,6 @@
+.bg_info {
+    background-image: url('../../../public/img/fon-2.jpg');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
