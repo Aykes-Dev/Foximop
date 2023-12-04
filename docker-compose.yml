@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  frontend:
+    build: ./frontend/
+  
+  gateway:
+    build: ./nginx/
+    ports:
+      - 7070:80
